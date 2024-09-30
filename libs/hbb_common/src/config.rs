@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["debdynv.dynv6.net"];
-pub const PUBLIC_RS_PUB_KEY: &str = "dePQrLRDPPkjVrPyBbnV8wic3JodaZ+o2XFBj5t4R1M=";
+pub const PUBLIC_RS_PUB_KEY: &str = "3HWTwQcsKiFaivuKkD4LSo7axhDdbNSIpqtut3JBoa4=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
